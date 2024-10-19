@@ -1,0 +1,7 @@
+nltk
+rake-nltk
+PyMuPDF
+pymongo
+concurrent-log-handler
+Flask
+unittest

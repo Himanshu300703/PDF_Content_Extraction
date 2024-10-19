@@ -1,0 +1,42 @@
+[ERROR LOG - PDF Processing Errors]
+-------------------------------------------------------------
+Date: 2024-10-19
+Time: 10:00 AM
+
+Error processing pdf1.pdf:
+- Error Type: 'WordListCorpusReader' object has no attribute '_LazyCorpusLoader__args'
+- Stack Trace: Traceback (most recent call last):
+  File "concurrency.py", line 25, in process_single_pdf
+    metadata, summary, keywords = process_pdf(pdf_path)
+  File "pdf_ingestion.py", line 45, in process_pdf
+    summary = summarize_text(extracted_text)
+  File "summarization.py", line 15, in summarize_text
+    # Relevant code here
+
+-------------------------------------------------------------
+
+Error processing pdf2.pdf:
+- Error Type: 'WordListCorpusReader' object has no attribute '_LazyCorpusLoader__reader_cls'
+- Stack Trace: Traceback (most recent call last):
+  File "concurrency.py", line 25, in process_single_pdf
+    metadata, summary, keywords = process_pdf(pdf_path)
+  File "pdf_ingestion.py", line 45, in process_pdf
+    summary = summarize_text(extracted_text)
+  File "summarization.py", line 15, in summarize_text
+    # Relevant code here
+
+-------------------------------------------------------------
+
+Error processing pdf3.pdf:
+- Error Type: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it
+- Stack Trace: Traceback (most recent call last):
+  File "concurrency.py", line 25, in process_single_pdf
+    metadata, summary, keywords = process_pdf(pdf_path)
+  File "pdf_ingestion.py", line 55, in process_pdf
+    collection.insert_one(metadata)
+  File "pymongo/collection.py", line 2200, in insert_one
+    # Relevant code here
+
+-------------------------------------------------------------
+
+[END OF ERROR LOG]
