@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # rishi-pawar-wasserstoff-AiInternTask
 # PDF Processing Pipeline
 
@@ -12,30 +11,8 @@ This project implements a PDF processing pipeline that ingests PDF documents, ex
 - **MongoDB Integration**: Stores metadata, summaries, and keywords in a MongoDB database.
 
 ## Project Structure
-project_name/
-│
-├── data/
-│   ├── pdf_links.json  
-│
-├── src/
-│   ├── __init__.py       
-│   ├── pdf_ingestion.py  
-│   ├── summarization.py  
-│   ├── keyword_extraction.py  
-│   ├── mongodb_handler.py  
-│   └── concurrency.py     
-│
-├── logs/
-│   └── error_log.txt     
-│
-├── tests/
-│   └── test_pipeline.py   
-│
-├── Dockerfile             
-│
-├── README.md        
-│
-└── main.py          
+![image](https://github.com/user-attachments/assets/7ac90d5f-b00e-4744-b044-691c331554c3)
+         
 
 
 ## Installation
@@ -68,6 +45,3 @@ project_name/
 4. ~use pdf_summaries_db
 
 5. ~db.pdf_documents.find().pretty()
-=======
-# Himanshu300703-rishi-pawar-wasserstoff-AiInternTask
->>>>>>> 014242aebd156be9989eb8072afc1e9704353940
