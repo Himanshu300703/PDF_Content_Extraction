@@ -19,7 +19,7 @@ This project implements a PDF processing pipeline that ingests PDF documents, ex
 ## Installation
 1. Clone the repository:
 
-   git clone https://github.com/Himanshu300703/rishi-pawar-wasserstoff-AiInternTask
+   git clone [https://github.com/Himanshu300703/rishi-pawar-wasserstoff-AiInternTask](https://github.com/Himanshu300703/Himanshu300703-rishi-pawar-wasserstoff-AiInternTask?tab=readme-ov-file)
    
    cd your_project_name
    
