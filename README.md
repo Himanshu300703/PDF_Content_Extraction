@@ -11,7 +11,8 @@ This project implements a PDF processing pipeline that ingests PDF documents, ex
 - **MongoDB Integration**: Stores metadata, summaries, and keywords in a MongoDB database.
 
 ## Project Structure
-![image](https://github.com/user-attachments/assets/7ac90d5f-b00e-4744-b044-691c331554c3)
+![image](https://github.com/user-attachments/assets/f3d9da52-e2fd-4a7f-8350-7166decddbe2)
+
          
 
 
