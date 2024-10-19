@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # rishi-pawar-wasserstoff-AiInternTask
 # PDF Processing Pipeline
 
@@ -67,3 +68,6 @@ project_name/
 4. ~use pdf_summaries_db
 
 5. ~db.pdf_documents.find().pretty()
+=======
+# Himanshu300703-rishi-pawar-wasserstoff-AiInternTask
+>>>>>>> 014242aebd156be9989eb8072afc1e9704353940
