@@ -1,5 +1,4 @@
-# rishi-pawar-wasserstoff-AiInternTask
-# PDF Processing Pipeline
+# PDF Content Extraction
 
 ## Overview
 This project implements a PDF processing pipeline that ingests PDF documents, extracts metadata, summarizes the content, performs keyword extraction, and stores the results in a MongoDB database. 
